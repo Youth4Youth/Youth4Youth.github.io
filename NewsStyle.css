@@ -1,0 +1,1065 @@
+
+a {
+  text-decoration:none;
+}
+
+
+
+@media screen and (min-width: 1210px) {
+
+  #testimonials {
+  
+    float: left;
+    text-decoration: none; ; 
+    text-align: center;
+    transition: all 0.3s ease; 
+    color: white; 
+    width: 190px;
+    
+    font-family: "Helvetica";
+    overflow: auto;
+  }
+
+.somesection {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* background-color: #b6b6dd; */
+  background-color: #fdd5d4;
+  height:fit-content;
+}
+.sectionimage {
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 50%;
+}
+
+.sectionheader {
+  flex:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color:#192a42;
+  font-weight: 800;
+}
+
+
+.sectiontext {
+  flex:0;
+  font-family: "Hiragino Kaku Gothic Pro",sans-serif;
+  font-size: 30px;
+  color:#192a42;
+  padding-right: 60px;
+
+}
+
+.continue {
+  /* background-color: #8888c8; */
+  background-color: #fe7372;
+  border-radius: 40px;
+  width: fit-content;
+  font-family: "Hiragino Kaku Gothic Pro",sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  font-weight: 100;
+  border:solid;
+  border-color: #192a42;
+  border-width: 1px;
+  transition: 0.3s;
+  margin-bottom: 50px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+
+.continue:hover {
+  background-color: #ff9ca4;
+  /* background-color: #9c9cd5; */
+  border-color:#ff9ca4;
+  cursor: pointer;
+}
+
+    .overflowcheck {
+      overflow: auto;
+    }
+    .hamburg {
+      display:none;
+    }
+    .OnThisPage {
+      background-color: white;
+      color: #192a42;
+    }
+    
+    .center {
+
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:200px;
+    }
+    
+.MAD {
+  background-color: #192a42; 
+  color: white;
+  margin-right: 0;
+  font-size: 80px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+    #first{
+      border-top-left-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+    
+    #last {
+      border-top-right-radius: 12px;
+      border-bottom-right-radius: 12px;
+    }
+    
+    
+    .menubar a:hover {
+      background-color: white;
+      color: #192a42;
+      cursor: pointer;
+    }
+    /*PAIN IN THE CRACK*/
+    
+    ul {
+      list-style: none;
+      position: relative;
+      /* text-align: center; */
+      /* float: left; */
+    }
+    
+    li {
+      float: left;
+    }
+    
+    ul:after {
+      clear: both;
+    }
+    
+    ul:before,
+    ul:after {
+        content: " ";
+        display: table;
+    }
+    
+    /* nav {
+      position: relative;
+      
+      text-align: center;
+    
+    } */
+    
+    ul.primary li a:hover {
+      background-color: white;
+      color: #192a42;
+      cursor: pointer;
+    }
+    
+    ul.sub {
+      position: absolute;
+        font-size: 18px;
+        top: 68px;
+        /* margin-top: ; */
+        z-index: 300;
+        width: 190px;
+        padding: 0;
+        /* display:none; */
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        background: transparent;
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.3s linear;
+    
+    }
+    
+    ul.sub li {
+      float: none;
+      margin: 0;
+    
+    }
+    
+    ul.sub li a {
+      background-color: #192a42; 
+      color: white;
+    }
+    ul.sub li a:hover {
+      background-color: white;
+      color: #192a42;
+      cursor: pointer;
+      padding: 8px 0;
+      font-size: 20px;
+    }
+
+
+    
+    
+    
+    ul.primary li:hover ul {
+      visibility: visible;
+      opacity: 1;
+      
+    }
+    
+    ul.primary li:hover a {
+      
+      background-color: #192a42; 
+      color: white;
+    }
+    
+    ul.primary li:hover > a{
+      background-color: white;
+      color: #192a42;
+    }  
+    
+    
+    .menubar {
+      display: block;
+      z-index: 200;
+      height:90px;
+      width:1600px;
+
+      margin-left: auto;
+      margin-right: auto;
+      /* padding-bottom: 20px; */
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      background-color: #192a42; 
+      overflow: visible;
+      font-size: 22px;
+      font-weight:900;
+      /* margin-left: 150px; */
+    
+    
+    
+    }
+    
+    .header {
+      z-index: 1;
+      background-color: #192a42;
+    }
+    
+    .header img:hover {
+      z-index: 1;
+      
+    }
+    
+    .menubar a {
+      float: left;
+      text-decoration: none; ; 
+      text-align: center;
+      transition: all 0.3s ease; 
+      color: white; 
+      width: 190px;
+      
+      font-family: "Helvetica";
+      overflow: auto;
+    
+    }
+
+.background {
+    display: block;
+    /* background-color: #d4e9fd; */
+    /* background-color: #fabdb9; */
+    /* background-color: #759c9c; */
+    /* background-color: #FF7F50; */
+    background-color: #b6b6dd;
+
+    /* padding-top: 20px; what you changing it to testing some stuff so dont mind flashing colours */
+    overflow: auto;
+    margin: 0;
+    /* */
+}
+.whitebox {
+    background-color: white;
+    color: #192a42;
+    width: 70%;
+    padding-top: 60px;
+    /* padding-bottom: 60px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.whitespace {
+  background-color: white;
+  height: 90px;
+}
+
+.largetext {
+    margin-top: 0px;
+    margin-bottom: 0;
+    display: relative;
+    font-size: 90px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.subheader {
+  margin-top: 0px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  display: relative;
+  font-size: 150px;
+  font-family: Helvetica;
+  text-align: center;
+  /* color: #d4e9fd; */
+  color: #b6b6dd;
+}
+
+.bodytext {
+  margin-top: 0px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  display: relative;
+  font-size: 70px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+  /* font-family: "Hiragino Kaku Gothic Pro",sans-serif; */
+  font-family:"Baumans", system-ui;
+  word-spacing: 10px;
+  text-align: center; 
+  /* do word-spacing itll look better */
+/* help me find good font its so ugly k  wait a sec*/
+/* oh nice you found one */
+/* inspected the wix site and copied one lolol  */
+}
+
+.footer2 {
+    text-decoration:none; 
+    background-color: #192a42;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+  
+  .footer2text1 {
+
+    font-size: 150px;
+    color: white;
+    font-family: Helvetica;
+  }
+  
+  .footer2text2 {
+    background-color: #192a42;
+    margin-bottom: 20px;
+  
+    text-decoration:none; 
+    font-weight: 100;
+    font-size: 70px;
+    color: white;
+    font-family:"Baumans", system-ui;
+    
+  }
+
+  #joinusTEXT {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .joinus {
+    display: flex;
+    overflow: hidden;
+    height: 700px;
+    border:none;
+    margin-bottom: 0px;
+  }
+  
+  .joinusthing {
+    /* margin-right: 150px;margin-left: 150px; */
+    flex-shrink: 0;
+    width:800px;
+    background-color: #192a42;
+    padding-top:120px;
+  }
+  
+  #joinusimg {
+    width:1500;
+    margin-bottom: 0px;
+  }
+  
+
+.MADbkg {
+  z-index: 1;
+  background-color:#192a42; 
+  color: white;
+  overflow: visible;
+}
+  #empowera {
+    margin-top:0;
+    margin-left:0px;
+    margin-bottom: 50px; 
+    font-size:30px; 
+    font-weight: 100;
+    padding-top: 15px;
+    /* padding-left: 8vw; */
+    font-family:"Baumans", system-ui;
+    text-align: center;
+  }
+  
+  #contactusbutton {
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    width: 180px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    font-family:"Baumans", system-ui;
+    transition: 0.2s;
+  }
+  
+  #contactusbutton:hover {
+    cursor: pointer;
+    background-color: rgb(65, 65, 65);
+    border-color: rgb(65, 65, 65);
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px; */
+    font-size: 27px;
+    font-weight: 400;
+  }
+  
+  #thingy {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    display:flex;
+  }
+  
+  .footer {
+    display: flex;
+    margin-top: -16px;
+    background-color: white;
+    width: 1400px;
+    height: 700px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.4s;
+  }
+  
+  .footertext {
+    color: #192a42;
+    font-size: 37px;
+    font-family:"Baumans", system-ui;
+    font-weight: lighter;
+  }
+  
+  #secondoneimg {
+    margin-left:100px;
+    margin-right: 155px;
+    flex: 0;width: 1800px;
+    height: 500px;
+    margin-top: 75px;
+  }
+  
+  #arrowtop1 {
+    display: absolute;
+    transform: translate(20px,290px);
+    width: 60px;
+    height:60px;
+    transition:0.3s;
+  }
+  
+  #arrowtop2 {
+    float: right;
+    display: absolute;
+    transform: translate(-20px,290px) scaleX(-1);
+    width: 60px;
+    height:60px;
+    transition:0.3s;
+  }
+  
+  #footimg {
+    width:2000px; 
+    margin-right: 50px;
+  }
+  
+  #arrowtop1 {filter: invert(12%) sepia(8%) saturate(6307%) hue-rotate(182deg) brightness(91%) contrast(88%);}
+  #arrowtop2 {filter: invert(12%) sepia(8%) saturate(6307%) hue-rotate(182deg) brightness(91%) contrast(88%);}
+  #arrowtop1:hover {filter: invert(63%) sepia(4%) saturate(11%) hue-rotate(348deg) brightness(85%) contrast(83%)}
+  #arrowtop2:hover {filter: invert(63%) sepia(4%) saturate(11%) hue-rotate(348deg) brightness(85%) contrast(83%)}
+  #arrowtop1:hover {
+    cursor: pointer;
+  }
+  #arrowtop2:hover {
+    cursor: pointer;
+  }
+  
+  .cred {
+    color: #192a42;
+    font-size: 24px;
+    font-family:Helvetica, sans-serif;
+  }
+  
+  /* #firstone {
+    transform: translate(-1000px);
+  } */
+   
+  #secondone {
+    display: none;
+  
+  } 
+  
+  .footer2 {
+    text-decoration:none; 
+    background-color: #192a42;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  
+  .footer2flex {
+   /* display: flex; */
+   padding-left: 550px;
+   padding-right: 550px;
+   text-decoration:none; 
+  }
+  .footer2text1 {
+  
+    font-size: 60px;
+    color: white;
+    font-family: Helvetica;
+  }
+  
+  .footer2text2 {
+    background-color: #192a42;
+    margin-bottom: 20px;
+  
+    text-decoration:none; 
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    font-family:"Baumans", system-ui;
+    
+  }
+  .hamburg {
+    display: none;
+  }
+  
+  .sobbing {
+    display:none;
+  }
+  
+  #textbuteh {
+    display: none;
+  }
+  
+  #joinusimg2 {
+    display: none;
+  }
+  
+  #footimg2 {
+    
+    display: none;
+  }
+  
+  #arrowmob1 {
+    display: none;
+  }
+  
+  #arrowmob2 {
+    display: none;
+  }
+}
+
+
+
+@media screen and (max-width: 1210px) {
+
+
+    .header {
+      
+      z-index: 1;
+      background-color: #192a42;
+      overflow: auto;
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+    
+    }
+    
+    .menubar {
+      text-decoration: none; 
+      text-align: left;
+      transition: all 0.3s ease; 
+      color: white; 
+      font-family: "Helvetica";
+    
+    }
+    
+    .bar1, .bar2, .bar3 {
+      width: 70px;
+      height: 7px;
+      background-color: white;
+      margin: 10px 0;
+      transition: 0.4s;
+      
+    }
+    
+    .change .bar1 {
+      transform: translate(0, 16.5px) rotate(-45deg);
+    }
+    
+    .change .bar2 {opacity: 0;}
+    
+    .change .bar3 {
+      transform: translate(0, -16.5px) rotate(45deg);
+    } 
+    
+    .OnThisPage {
+      color: grey;
+    }
+    
+
+    .MobilePage {
+      color: grey;
+    }
+
+    .hamburg {
+      z-index: 100;
+      /* padding-top: 90px; */
+      flex:0;
+      display: block;
+      margin-left: auto;
+      margin-right: 100px;
+    }
+    
+    .hamburg:hover {
+      cursor: pointer;
+    }
+    
+    .center {
+      
+      flex-shrink: 0;
+      margin-left: 30px;
+      margin-right: 0;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      width:200px
+    }
+      
+  .menubar {
+    
+    z-index: 99;
+    /* display: block; */
+  display: none;
+  padding-top: 50px;
+  height: 250px;
+  
+  padding-bottom: 50px;
+
+  border: none;
+ 
+  }
+  .menubar a {
+    /* float: left; */
+    text-decoration: none; ; 
+  
+    transition: all 0.3s ease; 
+    color: white; 
+    background-color: #192a42;
+    font-family: "Helvetica";
+    overflow: auto;
+    /* border: solid;
+    border-color: white; */
+
+  }
+
+  /* .menubar a:hover {
+    background-color: white;
+    color: #192a42;
+  } */
+  /* .decor {
+    padding: 20px;
+  } */
+  
+  .wrap {
+    width: 100%;
+    margin-top: 0px;
+  }
+  
+  ul {
+    list-style: none;
+    position: relative;
+    /* text-align: center; */
+    background-color: #192a42;
+
+  }
+
+  
+  ul.sub {
+    font-size: 120px;
+    /* display: none; */
+    font-weight: 300;
+ 
+  }
+
+ul.primary{
+  font-size:140px;
+  font-weight: 900;
+
+  margin-right: 0%;
+}
+
+    
+    
+ul.primary :hover {
+  color: grey;
+}
+#testimonials {
+  color: white;
+}
+
+    .fleximag {
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    #joinusimg {
+      display: none;
+    }
+    #joinusimg2 {
+      display: block;
+      width: 100%;
+    }
+    
+    #empowera {
+      display: absolute;
+      font-size: 70px;
+      color: white;
+      font-family: "Hiragino Kaku Gothic Pro",sans-serif;
+      text-align: center;
+      /* letter-spacing: 1px; */
+      font-weight: 300;
+      
+    }
+    
+    
+    #contactusbutton {
+      margin-top: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: solid;
+      border-color: white;
+      border-width: 1px;
+      width: 500px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      font-size: 70px;
+      color: white;
+      font-weight: 200;
+      font-family:"Baumans", system-ui;
+      transition: 0.2s;
+    }
+    
+    #contactusbutton:hover {
+      cursor: pointer;
+      background-color: rgb(65, 65, 65);
+      border-color: rgb(65, 65, 65);
+      /* padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px; */
+      font-size: 70px;
+      font-weight: 400;
+    }
+    
+    
+#thingy {
+  padding-top: 0px;
+  /* padding-bottom: 170vw; */
+  background-color: white;
+}
+
+.footer {
+  display: block;
+  margin-top: -16px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+  width: 100%;
+
+
+  transition: 0.4s;
+}
+
+.footertext {
+  color: #192a42;
+  width: 100%;
+  font-size: 70px;
+  font-family:"Baumans", system-ui;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#firstone {
+  width: 80%;
+}
+#secondone {
+  width: 80%;
+}
+#footimg {
+
+  display: none;
+}
+
+#footimg2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+#secondoneimg {
+display: block;
+  width: 300px;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#arrowmob1 {
+  display: absolute;
+  transform: translate(20px,1005px);
+  width: 60px;
+  height:60px;
+  transition:0.3s;
+}
+
+#arrowtop1 {
+  display: none;
+}
+#arrowtop2 {
+  display: none;
+}
+#arrowmob2 {
+  float: right;
+  display: absolute;
+  transform: translate(-20px,1005px) scaleX(-1);
+  
+  width: 60px;
+  height:60px;
+  transition:0.3s;
+}
+    
+    
+    #arrowmob1 {filter: invert(12%) sepia(8%) saturate(6307%) hue-rotate(182deg) brightness(91%) contrast(88%);}
+    #arrowmob2 {filter: invert(12%) sepia(8%) saturate(6307%) hue-rotate(182deg) brightness(91%) contrast(88%);}
+    #arrowmob1:hover {filter: invert(63%) sepia(4%) saturate(11%) hue-rotate(348deg) brightness(85%) contrast(83%)}
+    #arrowmob2:hover {filter: invert(63%) sepia(4%) saturate(11%) hue-rotate(348deg) brightness(85%) contrast(83%)}
+    #arrowmob1:hover {
+      cursor: pointer;
+    }
+    #arrowmob2:hover {
+      cursor: pointer;
+    }
+    
+    .cred {
+      color: #192a42;
+      font-size: 50px;
+      font-family:Helvetica, sans-serif;
+    }
+    
+    /* #firstone {
+      transform: translate(-1000px);
+    } */
+     
+    #secondone {
+      display: none;
+    
+    } 
+
+.footer2 {
+    text-decoration:none; 
+    background-color: #192a42;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  
+  .footer2flex {
+   /* display: flex;  */
+   /* padding-left: 550px;
+   padding-right: 550px; */
+   text-decoration:none; 
+  }
+  .footer2text1 {
+  
+    font-size: 150px;
+    color: white;
+    font-family: Helvetica;
+  }
+  
+  .footer2text2 {
+    background-color: #192a42;
+    margin-bottom: 20px;
+  
+    text-decoration:none; 
+    font-weight: 200;
+    font-size: 70px;
+    color: white;
+    font-family:"Baumans", system-ui;
+    
+  }
+
+.MADbkg {
+  background-color: #192a42;
+  padding-bottom: 50px;
+}
+.MAD {
+  margin-top: 40px;
+  background-color: #192a42; 
+  color: white;
+  margin-right: 0;
+  font-size: 80px;
+  margin-bottom: 30px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+
+.background {
+  display: block;
+  background-color: #b6b6dd;
+  /* padding-top: 20px; */
+  overflow: auto;
+  margin: 0;
+  
+}
+.whitebox {
+  background-color: white;
+  color: #192a42;
+  width: 90%;
+  padding-top: 60px;
+  /* padding-bottom: 60px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+.whitespace {
+background-color: white;
+height: 90px;
+}
+
+.largetext {
+  margin-top: 0px;
+  margin-bottom: 0;
+  display: relative;
+  font-size: 150px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.subheader {
+margin-top: 0px;
+padding-bottom: 30px;
+margin-bottom: 0;
+display: relative;
+font-size: 60px;
+font-family: Helvetica;
+text-align: center;
+color: #b6b6dd;
+}
+
+.bodytext {
+margin-top: 0px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 20px;
+margin-bottom: 0;
+display: relative;
+font-size: 30px;
+/* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+/* font-family: "Hiragino Kaku Gothic Pro",sans-serif; */
+font-family:"Baumans", system-ui;
+text-align: center;
+/* help me find good font its so ugly k  wait a sec*/
+/* oh nice you found one */
+/* inspected the wix site and copied one lolol  */
+}
+
+
+.somesection {
+  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 80%; */
+  background-color: white;
+}
+.sectionimage {
+  object-fit: cover;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.sectionheader {
+  flex:0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 140px;
+  color:#192a42;
+  font-weight: 800;
+}
+
+
+.sectiontext {
+  flex:0;
+  font-family: "Hiragino Kaku Gothic Pro",sans-serif;
+  font-size: 70px;
+  color:#192a42;
+
+
+}
+
+.continue {
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fe7372;
+  border-radius: 40px;
+  width: fit-content;
+  font-family: "Hiragino Kaku Gothic Pro",sans-serif;
+  text-decoration: none;
+  font-size: 50px;
+  color:white;
+  text-align: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border:solid;
+  border-color: #192a42;
+  border-width: 1px;
+  transition: 0.3s;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+
+.continue:hover {
+  background-color: #ff9ca4;
+  border-color: #ff9ca4;
+  cursor: pointer;
+}
+}

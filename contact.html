@@ -1,0 +1,110 @@
+<html>
+<head>
+<style>
+  @import url('https://fonts.googleopis.com/css2?family=Baumans&display=swap');
+</style>
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "M4XuZAnHwoM85OKuN",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+
+        function reload() {
+            // alert("Email sent!")
+            // location.reload(true);
+            var frm = document.getElementById("contact-form")
+//    frm.submit(); // Submit the form
+    frm.reset();  // Reset all form data
+//    return false; // Prevent page refresh
+        }
+        
+        
+    </script>
+</head>
+<body>
+<div style = "width: 90%;margin-left: auto;margin-right: auto;">
+    <form id="contact-form" >
+        <input type="hidden" name="contact_number">
+        <div class = "yipee">
+<div>
+        <label class = "label">First Name</label>
+        <br>
+        <input type="text" name="user_name" required >
+    </div>
+    <div>
+        <label class = "label">Last Name</label>
+        <br>
+        <input type="text" name="user_last_name" required >
+    </div>
+    </div>
+    <br>
+        <label class = "label">Email</label>
+        <br>
+        <input type="email" name="user_email" required >
+        <br><br>
+        <label class = "label">Message</label>
+        <br>
+        <textarea name="message" required></textarea>
+        <input type="submit" value="Send"  onclick="reload()" >
+    </form>
+</div>
+</body>
+</html>
+
+<style>
+.yipee {
+    display: flex;
+    gap:50px;
+    
+}
+
+.label {
+    font-family: "Hiragino Kaku Gothic Pro",sans-serif; 
+    font-size: 10px;
+
+}
+/* 
+.boxy {
+    border-color: grey;
+} */
+/* 
+.boxy :hover {
+    border-color: black;
+} */
+
+input,textarea{
+  border: solid;
+   border-width: 1px;
+   border-color: rgb(186, 186, 186);
+   border-radius: 4px;
+   font-family: "Hiragino Kaku Gothic Pro",sans-serif; 
+    font-size: 10px;
+    width: 100%;
+}
+
+input:hover,textarea:hover{
+    border: solid;
+   border-width: 1px;
+   border-color: black;
+}
+
+
+</style>
