@@ -152,19 +152,19 @@ var fourth = document.getElementById("fourthone");
   console.log("is this even working");
 
 
-  if (window.getComputedStyle(first).display === "flex") {
+  if (window.getComputedStyle(document.getElementById("firstone")).display === "flex") {
     second.style.display = "flex"
     first.style.display = "none"
 
-  } else if (window.getComputedStyle(second).display === "flex") {
+  } else if (window.getComputedStyle(document.getElementById("secondone")).display === "flex") {
     third.style.display = "flex"
     second.style.display = "none"
 
-  } else if (window.getComputedStyle(third).display === "flex") {
+  } else if (window.getComputedStyle(document.getElementById("thirdone")).display === "flex") {
     fourth.style.display = "flex"
     third.style.display = "none"
     
-  } else if (window.getComputedStyle(fourth).display === "flex") {
+  } else if (window.getComputedStyle(document.getElementById("fourthone")).display === "flex") {
     first.style.display = "flex"
     fourth.style.display = "none"
   }
