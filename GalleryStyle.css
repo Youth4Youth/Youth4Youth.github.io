@@ -387,14 +387,16 @@ body {
   
   .footer {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: -16px;
     background-color: white;
-    width: 1400px;
-    height: 700px;
-    
+    width: 1450px;
+    height: 900px;
     margin-left: auto;
     margin-right: auto;
     transition: 0.4s;
+    width: 80%;
   }
   
   .footertext {
@@ -478,27 +480,14 @@ body {
   
   #thirdone {
     display: none;
-    padding-top: 50px;
-    padding-bottom: 50px;
+
   }
   
   #fourthone {
     display:none;
   }
   
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: -16px;
-  background-color: white;
-  width: 1450px;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  transition: 0.4s;
-  width: 80%;
-}
+
   
   .footer2 {
     text-decoration:none; 
@@ -689,16 +678,13 @@ body {
 
   
   ul.sub {
-    font-size: 120px;
-    /* display: none; */
+    font-size: 80px;
     font-weight: 300;
- 
   }
 
 ul.primary{
-  font-size:140px;
+  font-size:120px;
   font-weight: 900;
-
   margin-right: 0%;
 }
     
@@ -801,24 +787,22 @@ ul.primary :hover {
   width: 80%;
 }
 #footimg {
-
-  display: none;
-}
-
-#footimg2 {
+  width: 600px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-}
-#secondoneimg {
-display: block;
-  width: 300px;
   margin-top: 35px;
   margin-bottom: 45px;
   margin-left: auto;
   margin-right: auto;
 }
+#secondoneimg {
+  width: 500px;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 #arrowmob1 {
   display: absolute;

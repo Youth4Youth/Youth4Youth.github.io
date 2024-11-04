@@ -577,7 +577,7 @@ margin-left: auto;
   margin-top: -16px;
   background-color: white;
   width: 1450px;
-  height: 700px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
   transition: 0.4s;
@@ -609,8 +609,7 @@ margin-left: auto;
 
 #thirdone {
   display: none;
-  padding-top: 50px;
-  padding-bottom: 50px;
+
 }
 
 #fourthone {
@@ -844,16 +843,13 @@ margin-left: auto;
 
   
   ul.sub {
-    font-size: 120px;
-    /* display: none; */
+    font-size: 80px;
     font-weight: 300;
- 
   }
 
 ul.primary{
-  font-size:140px;
+  font-size:120px;
   font-weight: 900;
-
   margin-right: 0%;
 }
 
@@ -1116,6 +1112,7 @@ display: block;
   padding-top: 0;
   width: 100%;
   transition: 0.4s;
+  
 }
 
 .footertext {
@@ -1125,44 +1122,28 @@ display: block;
   font-family:"Baumans", system-ui;
   font-weight: 300;
   text-align: center;
-  margin-top: 0px;
+
 }
 
-.footer {
-  width: 80%;
-}
 
-#footimg2 {
+
+#footimg {
+  width: 600px;
   display: block;
-}
-/* #secondoneimg {
-display: block;
-  width: 300px;
   margin-top: 35px;
   margin-bottom: 45px;
   margin-left: auto;
   margin-right: auto;
-} */
-
-#fourthoneimg {
-  margin-left:100px;
-  margin-right: 155px;
-  flex: 0;
-  width: 1800px;
-  height: 500px;
-  margin-top: 75px;
+}
+#secondoneimg {
+  width: 500px;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-  #fourthoneimg {
-    flex:0;
-    display: block;
-    width: 300px;
-    margin-top: 35px;
-    margin-bottom: 45px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
 
 #arrowmob1 {
@@ -1204,6 +1185,7 @@ display: block;
   color: #192a42;
   font-size: 50px;
   font-family:Helvetica, sans-serif;
+  text-align: center;
 }
 
 /* #firstone {

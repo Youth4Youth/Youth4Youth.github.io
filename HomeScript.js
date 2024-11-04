@@ -12,6 +12,10 @@ body
 {/* <link rel="stylesheet" href="./HomeStyle.css"></link> */}
 
 function zoom() {
+  var first = document.getElementById("firstone");
+var second = document.getElementById("secondone");
+var third = document.getElementById("thirdone");
+var fourth = document.getElementById("fourthone");
   document.body.style.zoom = "75%"
   second.style.display = "none";
 third.style.display = "none";
@@ -136,15 +140,16 @@ function menubarstuff() {
   
 }
 
-var first = document.getElementById("firstone");
-var second = document.getElementById("secondone");
-var third = document.getElementById("thirdone");
-var fourth = document.getElementById("fourthone");
+
 
 
 
 function next() {
-
+  var first = document.getElementById("firstone");
+var second = document.getElementById("secondone");
+var third = document.getElementById("thirdone");
+var fourth = document.getElementById("fourthone");
+  console.log("is this even working");
 
 
   if (window.getComputedStyle(first).display === "flex") {
@@ -167,6 +172,10 @@ function next() {
 
 function back() {
 
+  var first = document.getElementById("firstone");
+var second = document.getElementById("secondone");
+var third = document.getElementById("thirdone");
+var fourth = document.getElementById("fourthone");
   if (window.getComputedStyle(first).display === "flex") {
     fourth.style.display = "flex"
     first.style.display = "none"
@@ -183,8 +192,63 @@ function back() {
     third.style.display = "flex"
     fourth.style.display = "none"
   }
-
 }
+
+
+
+function nextmob() {
+  var first = document.getElementById("firstone");
+var second = document.getElementById("secondone");
+var third = document.getElementById("thirdone");
+var fourth = document.getElementById("fourthone");
+  console.log("is this even working");
+
+
+  if (window.getComputedStyle(first).display === "block") {
+    second.style.display = "block"
+    first.style.display = "none"
+
+  } else if (window.getComputedStyle(second).display === "block") {
+    third.style.display = "block"
+    second.style.display = "none"
+
+  } else if (window.getComputedStyle(third).display === "block") {
+    fourth.style.display = "block"
+    third.style.display = "none"
+    
+  } else if (window.getComputedStyle(fourth).display === "block") {
+    first.style.display = "block"
+    fourth.style.display = "none"
+  }
+}
+
+function backmob() {
+
+  var first = document.getElementById("firstone");
+var second = document.getElementById("secondone");
+var third = document.getElementById("thirdone");
+var fourth = document.getElementById("fourthone");
+  if (window.getComputedStyle(first).display === "block") {
+    fourth.style.display = "block"
+    first.style.display = "none"
+
+  } else if (window.getComputedStyle(second).display === "block") {
+    first.style.display = "block"
+    second.style.display = "none"
+
+  } else if (window.getComputedStyle(third).display === "block") {
+    second.style.display = "block"
+    third.style.display = "none"
+    
+  } else if (window.getComputedStyle(fourth).display === "block") {
+    third.style.display = "block"
+    fourth.style.display = "none"
+  }
+}
+
+
+
+
 
 var mySpans = document.getElementsByTagName(a);
 

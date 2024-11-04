@@ -648,16 +648,13 @@ body {
 
   
   ul.sub {
-    font-size: 120px;
-    /* display: none; */
+    font-size: 80px;
     font-weight: 300;
- 
   }
 
 ul.primary{
-  font-size:140px;
+  font-size:120px;
   font-weight: 900;
-
   margin-right: 0%;
 }
     
@@ -759,24 +756,22 @@ ul.primary :hover {
   width: 80%;
 }
 #footimg {
-
-  display: none;
-}
-
-#footimg2 {
+  width: 600px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-}
-#secondoneimg {
-display: block;
-  width: 300px;
   margin-top: 35px;
   margin-bottom: 45px;
   margin-left: auto;
   margin-right: auto;
 }
+#secondoneimg {
+  width: 500px;
+  display: block;
+  margin-top: 35px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 #arrowmob1 {
   display: absolute;
@@ -815,10 +810,11 @@ display: block;
     }
     
     .cred {
-      color: #192a42;
-      font-size: 50px;
-      font-family:Helvetica, sans-serif;
-    }
+  color: #192a42;
+  font-size: 50px;
+  font-family:Helvetica, sans-serif;
+  text-align: center;
+}
     
     /* #firstone {
       transform: translate(-1000px);
