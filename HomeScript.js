@@ -13,6 +13,9 @@ body
 
 function zoom() {
   document.body.style.zoom = "75%"
+  second.style.display = "none";
+third.style.display = "none";
+fourth.style.display = "none";
 }
 function myFunction(x) {
   if (x.matches) { // If media query matches
@@ -133,47 +136,55 @@ function menubarstuff() {
   
 }
 
+var first = document.getElementById("firstone");
+var second = document.getElementById("secondone");
+var third = document.getElementById("thirdone");
+var fourth = document.getElementById("fourthone");
+
+
+
 function next() {
 
-  var first = document.getElementById("firstone")
-  var second = document.getElementById("secondone")
 
-  if (window.getComputedStyle(first).display === "none") {
-    second.style.display = "none"
-    first.style.display = "flex"
 
-  } else if (window.getComputedStyle(second).display === "none") {
+  if (window.getComputedStyle(first).display === "flex") {
     second.style.display = "flex"
     first.style.display = "none"
-  }
-}
 
-function nextmob() {
-
-  var first = document.getElementById("firstone")
-  var second = document.getElementById("secondone")
-
-  if (window.getComputedStyle(first).display === "none") {
+  } else if (window.getComputedStyle(second).display === "flex") {
+    third.style.display = "flex"
     second.style.display = "none"
-    first.style.display = "block"
 
-  } else if (window.getComputedStyle(second).display === "none") {
-    second.style.display = "block"
-    first.style.display = "none"
+  } else if (window.getComputedStyle(third).display === "flex") {
+    fourth.style.display = "flex"
+    third.style.display = "none"
+    
+  } else if (window.getComputedStyle(fourth).display === "flex") {
+    first.style.display = "flex"
+    fourth.style.display = "none"
   }
 }
 
-// function showtheimg() {
-//   var img = document.getElementsByClassName("flexboximage");
-//   img.style.display = "block";
-// }
+function back() {
 
-// var mediaQuerySm = window.matchMedia('(max-width: 1210px)');
+  if (window.getComputedStyle(first).display === "flex") {
+    fourth.style.display = "flex"
+    first.style.display = "none"
 
-// if (mediaQuerySm.matches) {
-//   alert('Larger than Small Media Query Matched!')
-// }
+  } else if (window.getComputedStyle(second).display === "flex") {
+    first.style.display = "flex"
+    second.style.display = "none"
 
+  } else if (window.getComputedStyle(third).display === "flex") {
+    second.style.display = "flex"
+    third.style.display = "none"
+    
+  } else if (window.getComputedStyle(fourth).display === "flex") {
+    third.style.display = "flex"
+    fourth.style.display = "none"
+  }
+
+}
 
 var mySpans = document.getElementsByTagName(a);
 

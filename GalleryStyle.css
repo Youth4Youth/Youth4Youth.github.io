@@ -459,6 +459,46 @@ body {
     display: none;
   
   } 
+  #secondone {
+    display: none;
+  
+  } 
+  #secondoneimg {
+    margin-left:100px;
+    margin-right: 155px;
+    flex: 0;
+    width: 1800px;
+    height: 500px;
+    margin-top: 75px;
+  }
+  
+  #secondone {
+    display: none;
+  } 
+  
+  #thirdone {
+    display: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #fourthone {
+    display:none;
+  }
+  
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -16px;
+  background-color: white;
+  width: 1450px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.4s;
+  width: 80%;
+}
   
   .footer2 {
     text-decoration:none; 
@@ -829,6 +869,7 @@ display: block;
       display: none;
     
     } 
+    
 
 .footer2 {
     text-decoration:none; 
