@@ -609,7 +609,6 @@ margin-left: auto;
 
 #thirdone {
   display: none;
-
 }
 
 #fourthone {
@@ -725,16 +724,15 @@ margin-left: auto;
 @media screen and (max-width: 1210px) {
 
 
-.header {
+  .header {
+      
+    z-index: 1;
+    background-color: #192a42;
+    display: flex;
+    align-items: center;
+    overflow:visible;
   
-  z-index: 1;
-  background-color: #192a42;
-  overflow: auto;
-  display: flex;
-  align-items: center;
-  padding-bottom: 20px;
-
-}
+  }
 
 .menubar {
   text-decoration: none; 
@@ -773,10 +771,9 @@ margin-left: auto;
   z-index: 100;
   /* padding-top: 90px; */
   flex:0;
-
+  display: block;
   position: absolute;
-  right: 0;
-
+  right: 10px;
   margin-right: 100px;
 }
 
@@ -834,12 +831,15 @@ margin-left: auto;
   }
   
   ul {
+    width: 1400px;
+    padding-right: 200px;
+    overflow: hidden;
     list-style: none;
     position: relative;
-    /* text-align: center; */
     background-color: #192a42;
 
   }
+
 
   
   ul.sub {

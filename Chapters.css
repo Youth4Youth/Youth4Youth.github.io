@@ -496,6 +496,19 @@ overflow: visible;
   
   } 
   
+#secondone {
+  display: none;
+} 
+
+#thirdone {
+  display: none;
+}
+
+#fourthone {
+  display:none;
+}
+
+  
   .footer2 {
     text-decoration:none; 
     background-color: #192a42;
@@ -563,16 +576,15 @@ overflow: visible;
 @media screen and (max-width: 1210px) {
 
 
-    .header {
+  .header {
       
-      z-index: 1;
-      background-color: #192a42;
-      overflow: auto;
-      display: flex;
-      align-items: center;
-      padding-bottom: 20px;
-    
-    }
+    z-index: 1;
+    background-color: #192a42;
+    display: flex;
+    align-items: center;
+    overflow:visible;
+  
+  }
     
     .menubar {
       text-decoration: none; 
@@ -615,9 +627,9 @@ overflow: visible;
       z-index: 100;
       /* padding-top: 90px; */
       flex:0;
-    
       display: block;
-      margin-left: auto;
+      position: absolute;
+      right: 10px;
       margin-right: 100px;
     }
     
@@ -676,12 +688,15 @@ overflow: visible;
   }
   
   ul {
+    width: 1400px;
+    padding-right: 200px;
+    overflow: hidden;
     list-style: none;
     position: relative;
-    /* text-align: center; */
     background-color: #192a42;
 
   }
+
 
   
   ul.sub {
@@ -1004,6 +1019,19 @@ text-align: center;
 .koreaimg img{
     display: block;
     width: 100%;
+}
+
+
+#secondone {
+  display: none;
+} 
+
+#thirdone {
+  display: none;
+}
+
+#fourthone {
+  display:none;
 }
 
 }

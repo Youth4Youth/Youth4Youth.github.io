@@ -556,16 +556,15 @@ body {
 @media screen and (max-width: 1210px) {
 
 
-    .header {
+  .header {
       
-      z-index: 1;
-      background-color: #192a42;
-      overflow: auto;
-      display: flex;
-      align-items: center;
-      padding-bottom: 20px;
-    
-    }
+    z-index: 1;
+    background-color: #192a42;
+    display: flex;
+    align-items: center;
+    overflow:visible;
+  
+  }
     
     .menubar {
       text-decoration: none; 
@@ -608,9 +607,9 @@ body {
       z-index: 100;
       /* padding-top: 90px; */
       flex:0;
-    
       display: block;
-      margin-left: auto;
+      position: absolute;
+      right: 10px;
       margin-right: 100px;
     }
     
@@ -669,12 +668,15 @@ body {
   }
   
   ul {
+    width: 1400px;
+    padding-right: 200px;
+    overflow: hidden;
     list-style: none;
     position: relative;
-    /* text-align: center; */
     background-color: #192a42;
 
   }
+
 
   
   ul.sub {
